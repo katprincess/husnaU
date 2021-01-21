@@ -11,7 +11,7 @@ public class ShiftOperator {
 		System.out.println("a<<2= "+(a<<2));
 		System.out.println(5<<2);// 5*2^2 = 5*4 =20
 		System.out.println(10<<2); // 10*2^2 = 10*4 = 40 // 2 is the number of times it is specified 
-		System.out.println(15<<4);// 15*2^4 = 15*(2x2x2x2) = 15*16 = 240
+		System.out.println(15<<4);// 15*2^4 = 15*(2x2x2x2)/ 15*4^4 = 15*16 = 240
 		
 		//right shift
 		// 0000 0101>>2 = 0000 0001(1)

@@ -16,9 +16,18 @@ public class StringSting {
 		//should be careful with string concat in loops
 		String a = "one";
 		String b = "two";
-		for (int i=0 ; i<10; i++) {
+		for (int i=0 ; i<3; i++) {
 			b = b+a;
 			System.out.println(b);
+		}
+		
+		//another way to concat
+		StringBuffer sb = new StringBuffer(" cat mat sat");
+		String sb2 = "eat";
+		
+		for (int i=0; i<3; i++) {
+			sb.append(sb2);
+			System.out.println(sb);
 		}
 
 	}

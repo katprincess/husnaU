@@ -16,6 +16,18 @@ public class Casting {
 		float f = 100; // implicit
 
 		System.out.println(value + " " + value1 + " " + f);
+		
+		
+//		String a = "lilly";
+//		Character c = a;// cant convert string to character
+		
+//		Character c = 'B';
+//		String a = c;// Cnat convert char to String
+		
+		double d = 500;
+//		long v = d;// cant do double to long
+//		float f1 =d;// cant double to float		
+		
 
 		// Explicit Casting
 		// done thought coding
